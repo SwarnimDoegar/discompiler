@@ -42,14 +42,6 @@ client.on('message', msg => {
     run(msg, msgContent);
   }
 }
-
-
-
-
-
-
-
-
 );
 
 client.login(process.env.clientid);
